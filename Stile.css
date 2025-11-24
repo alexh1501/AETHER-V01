@@ -1,0 +1,12 @@
+body {
+    background-color: #111111; /* Sfondo quasi nero per la vibe AETHER */
+    color: #f0f0f0;            /* Testo bianco/grigio chiaro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: #00ffff; /* Colore ciano per il titolo */
+    border-bottom: 2px solid #00ffff;
+    padding-bottom: 10px;
+}
