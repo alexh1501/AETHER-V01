@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,10 +12,18 @@
         <h1>AETHER - Il Copilota Strategico</h1>
     </header>
     <main>
-        <p>Benvenuto, socio. Cosa dobbiamo costruire oggi?</p>
+        <section id="chat-interface">
+            <div id="messages">
+                <p class="aether-message">Benvenuto, Socio. Sistema operativo AETHER v0.1 in attesa di istruzioni.</p>
+            </div>
+            
+            <div id="input-area">
+                <input type="text" id="user-input" placeholder="Dai il tuo comando... (Es: Analizza i dati del sonno)">
+                <button onclick="sendMessage()">Invia Ordine</button>
+            </div>
+        </section>
     </main>
     
     <script src="script.js"></script> 
 </body>
 </html>
-
